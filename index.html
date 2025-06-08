@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>My Resume</title>
+</head>
+<body>
+   
+    <!-- Wrapper -->
+    <div class="wrapper">
+        
+        <!-- Main content -->
+        <div class="main-content">
+            
+             <!-- About me -->
+             <div class="about-me-container">
+                 <h1 class="my-name">Chebotar Oleksandr</h1>
+
+                 <p id="age">Alter: </p>
+
+                 <script>
+                    const birthYear = 1966; // год рождения
+                    const currentYear = new Date().getFullYear();
+                    const age = currentYear - birthYear;
+                    document.getElementById("age").innerText = `Alter: ${age} Jahre`;
+                 </script>
+
+             </div>
+
+            <!-- Work Experience -->
+            <div class="work-experience-container">
+                <h3 class="main-content-title">Berufserfahrung</h3>
+
+            <!-- Company 1 -->
+            <div class="work-experience-place">
+                <h4 class="work-experience-position">AB
+                    <p class="work-period">08.1999 - 06.2004 | Danaos Shipping Company | Griechenland</p> 
+                <h4 class="work-experience-position">Navigationsoffizier</h4>
+                    <ul class="work-duties-list">
+                <li class="work-duties">Verantwortlicher Wachoffizier für die Schiffsüberwachung, Navigation, Kontrolle des Schiffsbetriebs, Betreuung der
+                Personen an Bord, Ladungsumschlag und -stauung sowie den Funkverkehr.
+                </li>
+            </ul>
+                    <p class="work-period">06.2004 - 09.2005 | Danaos Shipping Company | Greece</p>
+                    <p class="work-period">09.2005 - 07.2022 | Euromarin Shipping Company | Ukraine / Greece</p>
+            
+
+            </div>
+
+            <!-- Education -->
+            <div>
+                <h3 class="education-content-title">Ausbildung</h3>
+                <h4 class="university"></h4>
+                <p class="faculty">Maritimes Kolleg. Navigator</p>
+                <p class="university-period">2004 | Ukraine</p>
+            </div>
+
+            <!-- Company 2 -->
+            <div class="work-experience-place">
+                <h4 class="work-experience-position"> 
+                    <span class="work-experience-company">Beruflichs Ziel</span></h4>
+                    <ul class="work-duties-list">
+                        <li class="work-duties">Nach 25 Jahren Erfahrung in der Seefahrt möchte ich meine berufliche Laufbahn an Land fortsetzen.
+                        Ich strebe einen erfolgreichen Quereinstieg in die IT-Branche an, um meine technische Affinität, mein Verständnis für
+                        komplexe Systeme und meine präzise Arbeitsweise in zukünftige IT-Projekte einzubringen.
+                        Während meiner langjährigen Tätigkeit als nautischer Offizier in der internationalen Schifffahrt konnte ich ein hohes
+                        Maß an Verantwortungsbewusstsein, Disziplin und Teamfähigkeit entwickeln.
+                        Seit einiger Zeit beschäftige ich mich intensiv mit dem IT-Bereich – insbesondere mit Webentwicklung und Datenanalyse –
+                        und habe bereits erste eigene Projekte umgesetzt, darunter einfache Browser-Spiele, ein digitales Portfolio und eine
+                        Filmdatenanalyse.
+                        Mein Ziel ist es, meine Kenntnisse im Bereich der Fullstack-Entwicklung weiter auszubauen und langfristig in der
+                        IT-Branche Fuß zu fassen und eine nachhaltige Integration in den deutschen Arbeitsmarkt zu erreichen.
+                        </li>
+            
+                
+                    </ul>
+                   
+
+            </div>
+            
+            </div>
+
+            <!-- Company 3 -->
+            <div class="work-experience-place">
+                <h4 class="work-experience-position">Hobbies:
+                    <span class="work-experience-company"></span>
+                </h4>
+            
+                <ul class="work-duties-list">
+                    <li class="work-duties">Bitte bei Bedarf ergänzen: z.B Programmieren, Excel, Fotografie</li>
+            
+            
+                </ul>
+            
+            </div>
+
+            <!-- My projects -->
+            <div class="projects-container">
+                <h3 class="main-content-title">📁 Projekte</h3>
+                <ol class="project-list">
+            
+                    <li class="project-item">
+                        <a href="https://schneemann-23.github.io/Online-Store/" class="project-item-link" target="_blank">
+                            🛍️ Online Store Website
+                        </a>
+                        <span class="project-item-descr">– Responsives Online-Shop-Layout. [HTML, CSS, JS]</span>
+                    </li>
+            
+                    <li class="project-item">
+                        <a href="https://schneemann-23.github.io/Banderogusak/" class="project-item-link" target="_blank">
+                            🎮 Banderogusak (Pygame im Browser)
+                        </a>
+                        <span class="project-item-descr">– Arcade-Spiel mit Tastatursteuerung im Browser. [Python, Pygame →
+                            Web]</span>
+                    </li>
+            
+                    <li class="project-item">
+                        <a href="https://schneemann-23.github.io/Ball_Bouncer_Game/" class="project-item-link" target="_blank">
+                            🏀 Ball Bouncer Game (Pygame im Browser)
+                        </a>
+                        <span class="project-item-descr">– Ball springt auf Plattform, Punkte werden gezählt. [Python, Pygame →
+                            Web]</span>
+                    </li>
+            
+                    <li class="project-item">
+                        <a href="https://public.tableau.com/app/profile/oleksandr.ch8624/viz/Book4__15656/MoviesAnalysis"
+                            class="project-item-link" target="_blank">
+                            📊 Movie Dashboard (Tableau)
+                        </a>
+                        <span class="project-item-descr">– Filmanalyse nach Genres, Ländern und Jahren. [Tableau Public]</span>
+                    </li>
+            
+                </ol>
+            </div>
+
+        </div>
+
+            <!-- Sidebar and Picture -->
+                <aside class="sidebar">
+                <img src="./img/1.jpg" alt="My photo" width="370px" class="my-photo">
+
+           <!-- Contacts -->
+           <div class="contact">
+                <h3 class="sidebar-title">Kontaktdaten</h3>
+                <p class="contacts-item">
+                <span class="contacts-type">C: </span>  
+                <a href="tel:+48884682823" class="contacts-number">+49 15172541458</a></p>
+                <p class="contacts-item">
+                <span class="contacts-type">E: </span>
+                <a href="mailto:koschey.ch@gmail.com" class="contacts-email"> koschey.ch@gmail.com</a></p>
+            </div>
+
+            <!-- Tech skills -->
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="skills">
+                    <li class="tech-skills-item">
+                    <span class="skill-list-text">Betrieb von Boots- und Navigationssystemen</span></li>
+                    <li class="tech-skills-item">
+                    <span class="skill-list-text">Schiffsnavigation</span></li>
+                    <li class="tech-skills-item">
+                    <span class="skill-list-text">Erste Hilfe an Bord</span></li>
+                    <li class="tech-skills-item">
+                    <span class="skill-list-text">Ausbildung von Offizieren und Besatzungsmitgliedern Verantwortlich für die Handhabung von Ladungen</span></li>
+                    <li class="tech-skills-item">
+                    <span class="skill-list-text">Bedienung electronischer Seekartenszsteme (ECDIS)</span></li>
+                    <li class="tech-skills-item">
+                    <span class="skill-list-text">RadarßNavigation (Radar, ARPAßSzsteme)</span></li>
+                </ul>
+                
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul class="skills">
+                    <li class="soft-skils-item">
+                    <span class="skill-list-text">Gelassenheit</span></li>
+                    <li class="soft-skils-item">
+                    <span class="skill-list-text">Stressresistenz</span></li>
+                    <li class="soft-skils-item">
+                    <span class="skill-list-text">Verantwortung</span></li>
+                    <li class="soft-skils-item">
+                    <span class="skill-list-text">Genauigkeit</span></li>
+                </ul>
+            </div>
+
+        </aside>
+
+    </div>
+
+    
+</body>
+</html>
+
+
